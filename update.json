@@ -1,4 +1,5 @@
 {
-  "latestVersion": "1.0.2",
-  "updateUrl": "https://github.com/USERNAME/REPO/releases/latest"
+  "latest_version":"1.0.0",
+  "update_message":"يوجد تحديث جديد",
+  "apk_url":"https://github.com/speed100/MyRestaurantApp/releases/latest"
 }
