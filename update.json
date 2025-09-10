@@ -1,5 +1,10 @@
 {
-  "latest_version":"1.0.0",
-  "update_message":"يوجد تحديث جديد",
-  "apk_url":"https://github.com/speed100/MyRestaurantApp/releases/latest"
+  "Visibility": "VISIBLE",
+  "Title": "تحديث جديد متوفر",
+  "Description": "تم إصلاح بعض الأخطاء وإضافة ميزات جديدة.",
+  "MainTextButton": "تحديث الآن",
+  "Cancelable": "true",
+  "CancelButtonText": "لاحقاً",
+  "DownloadLink": "https://example.com/app.apk",
+  "Version": "1.1"
 }
