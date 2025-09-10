@@ -1,21 +1,12 @@
 {
-  "Visibility": "VISIBLE",
-  "Title": "تحديث مهم",
-  "Description": "ننصحك بتحميل آخر نسخة لضمان أفضل تجربة.",
-  "MainTextButton": "حدّث الآن",
-  "Cancelable": "true",
-  "CancelButtonText": "لاحقاً",
-  "DownloadLink": "https://example.com/app.apk",
-  "Version": "1.2",
-  "ForceUpdate": "false",
-  "ImageUrl": "https://example.com/banner.png",
-  "Changelog": [
-    "إضافة ميزة البحث",
-    "تحسين سرعة الأداء",
-    "إصلاح الأخطاء السابقة"
-  ],
-  "ButtonColors": {
-    "UpdateButton": "#4CAF50",
-    "CancelButton": "#F44336"
-  }
+  "Visibility":"VISIBLE",
+  "Title":"تحديث جديد متوفر",
+  "Description":"تم إصلاح بعض الأخطاء وإضافة ميزات جديدة.",
+  "MainTextButton":"تحديث الآن",
+  "Cancelable":"true",
+  "CancelButtonText":"لاحقاً",
+  "DownloadLink":"https://example.com/app.apk",
+  "Version":"1.1",
+  "latest_version":"1.1",
+  "update_message":"تم إصلاح بعض الأخطاء"
 }
