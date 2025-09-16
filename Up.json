@@ -1,22 +1,12 @@
-if (map.get("Visibility").toString().equals("VISIBLE")) {
-    
-    ttext01.setText(map.get("Title").toString());
-    ttext02.setText(map.get("Description").toString());
-    ttext03.setText(map.get("update_message").toString());
-
-    bt01.setText(map.get("MainTextButton").toString());
-    bt02.setText(map.get("CancelButtonText").toString());
-
-    bt01.setOnClickListener(v -> {
-        String link = map.get("DownloadLink").toString();
-        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
-        startActivity(i);
-    });
-
-    bt02.setOnClickListener(v -> {
-        // إغلاق الديالوج
-        dialog.dismiss();
-    });
-
-    dialog.show();
+{
+  "Visibility":"VISIBLE",
+  "Title":"تحديث جديد متوفر",
+  "Description":"تم إصلاح بعض الأخطاء وإضافة ميزات جديدة.",
+  "MainTextButton":"تحديث الآن",
+  "Cancelable":"true",
+  "CancelButtonText":"لاحقاً",
+  "DownloadLink":"https://example.com/app.apk",
+  "Version":"1.1",
+  "latest_version":"1.1",
+  "update_message":"تم إصلاح بعض الأخطاء"
 }
