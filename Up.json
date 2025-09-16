@@ -1,6 +1,22 @@
-{
-  "versionCode": 2,
-  "versionName": "1.1",
-  "url": "https://github.com/...",
-  "notes": "..."
+if (map.get("Visibility").toString().equals("VISIBLE")) {
+    
+    ttext01.setText(map.get("Title").toString());
+    ttext02.setText(map.get("Description").toString());
+    ttext03.setText(map.get("update_message").toString());
+
+    bt01.setText(map.get("MainTextButton").toString());
+    bt02.setText(map.get("CancelButtonText").toString());
+
+    bt01.setOnClickListener(v -> {
+        String link = map.get("DownloadLink").toString();
+        Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+        startActivity(i);
+    });
+
+    bt02.setOnClickListener(v -> {
+        // إغلاق الديالوج
+        dialog.dismiss();
+    });
+
+    dialog.show();
 }
