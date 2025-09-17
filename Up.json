@@ -1,12 +1,1 @@
-{
-  "Visibility":"VISIBLE",
-  "Title":"تحديث جديد متوفر",
-  "Description":"تم إصلاح بعض الأخطاء وإضافة ميزات جديدة.",
-  "MainTextButton":"تحديث الآن",
-  "Cancelable":"true",
-  "CancelButtonText":"لاحقاً",
-  "DownloadLink":"https://example.com/app.apk",
-  "Version":"1.1",
-  "latest_version":"1.1",
-  "update_message":"تم إصلاح بعض الأخطاء"
-}
+{"whatsNew":"test","updateLink":"test","versionName":"1.1","title":"","isCancelable":true,"versionCode":1}
