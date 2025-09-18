@@ -1,4 +1,6 @@
 {
-    "showLinear59": true,
-    "test": "هذا نص تجريبي"
+  "prices": {
+    "test": "هذا نص تجريبي",
+    "showLinear59": "true"
+  }
 }
